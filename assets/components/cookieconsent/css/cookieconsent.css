@@ -1,0 +1,39 @@
+.cc-window{
+    z-index: 99999;
+}
+.cc-message {
+    font-size:14px;
+}
+.cc-message p {
+    margin-bottom:0;
+}
+.cc-window.cc-banner {
+    gap:10px;
+}
+.cc-message {
+    color: var(--cookie-text-color);
+}
+.cc-message a {
+    color: var(--cookie-text-color);
+    text-decoration: underline;
+}
+.cc-message a:hover {
+    text-decoration:none;
+}
+@media (max-width: 1023.98px) {
+    .cc-window.cc-banner {
+        flex-direction: column;
+        align-items: unset;
+    }
+}
+@media (max-width: 700px) {
+    .cc-theme-classic .cc-btn:last-child {
+        min-width: auto;
+    }
+    .cc-window.cc-banner {
+        gap:0;
+    }
+    .cc-message p {
+        margin:0;
+    }
+}
