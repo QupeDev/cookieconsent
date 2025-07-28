@@ -1,6 +1,9 @@
 # CookieConsent для MODX
+[Demo](https://cookieconsent.qupe.ru/)
 
 Этот компонент интегрирует библиотеку osano/cookieconsent в MODX, предоставляя гибкий и настраиваемый баннер согласия на использование cookies.
+
+В файле cookieconsent.loader.js вам доступны callback'и с помощью которых в можете интегрировать согласие\отказ от политики с функционалом вашего сайта.
 
 ## Основано на osano/cookieconsent
 
@@ -8,8 +11,9 @@
 
 ## Минимальные требования
 
-*   MODX 2.x или 3.x
-*    ClientConfig для MODX
+* MODX 2.8 или 3.1
+* Установленный пакет ClientConfig
+* php7.4 для Modx 2.8 или php8.2 для Modx 3.1
 
 ## Возможности
 
