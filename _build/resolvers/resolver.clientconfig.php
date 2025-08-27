@@ -80,6 +80,12 @@ if ($object->xpdo) {
                     'xtype' => 'colorpickerfield'
                 ],
                 [
+                    'key' => 'private_policy_popup_title_color',
+                    'value' => '000000',
+                    'label' => 'Цвет текста заголовка',
+                    'xtype' => 'colorpickerfield'
+                ],
+                [
                     'key' => 'private_policy_popup_padding',
                     'value' => '1em',
                     'label' => 'Отступ окна',
@@ -162,7 +168,8 @@ if ($object->xpdo) {
                     'private_policy_header',
                     'private_policy_text',
                     'private_policy_href',
-                    'private_policy_popup_txt_color'
+                    'private_policy_popup_txt_color',
+                    'private_policy_popup_title_color'
                 ];
                 
                 foreach ($settingKeys as $key) {

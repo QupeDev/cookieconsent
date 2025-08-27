@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const cookieConfigBorderRadius = cookieConfig.dataset.borderRadius;
         const cookieConfigBorder = cookieConfig.dataset.border;
         const cookieConfigPadding = cookieConfig.dataset.padding;
+        const cookieConfigTitleColor = cookieConfig.dataset.titleColor;
+
         if (cookieConfigColor) {
             document.body.style.setProperty('--cookie-text-color', cookieConfigColor);
         }
@@ -18,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         if (cookieConfigPadding) {
             document.body.style.setProperty('--cookie-padding', cookieConfigPadding);
+        }
+        if (cookieConfigTitleColor) {
+            document.body.style.setProperty('--cookie-title-color', cookieConfigTitleColor);
         }
     }
 

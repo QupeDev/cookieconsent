@@ -12,6 +12,7 @@ $chunk->fromArray([
      data-btn-bg="#[[++private_policy_popup_btn]]"
      data-btn-text="#[[++private_policy_popup_txt]]"
      data-text-color="#[[++private_policy_popup_txt_color]]"
+     data-title-color="#[[++private_policy_popup_title_color]]"
      data-padding="[[++private_policy_popup_padding]]"
      data-border="[[++private_policy_popup_border]]"
      data-border-radius="[[++private_policy_popup_border_radius]]"

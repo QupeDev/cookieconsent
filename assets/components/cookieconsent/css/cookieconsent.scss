@@ -1,7 +1,9 @@
 .cc-window {
     z-index: 99999;
 }
-
+.cc-header {
+    color: var(--cookie-title-color);
+}
 .cc-message {
     font-size: 14px;
     color: var(--cookie-text-color);

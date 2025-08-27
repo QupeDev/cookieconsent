@@ -10,6 +10,9 @@
 .cc-window.cc-banner {
     gap:10px;
 }
+.cc-header {
+    color: var(--cookie-title-color);
+}
 .cc-message {
     color: var(--cookie-text-color);
 }
